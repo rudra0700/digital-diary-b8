@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.emoji {
+  color: blue;
+  /* cursor: pointer; */
+  cursor: url("emoji.png"), auto;
+}
+
+.container{
+	border: 2px solid black;
+	display: flex;
+	justify-content: space-between;
+	justify-content: space-evenly;
+	justify-content: space-around;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	flex-direction: column-reverse;
+}
+.box{
+	background-color: red;
+	padding: 10px;
+	width: 150px;
+}
+.box2{
+	background-color: green;
+}
+.box3{
+	background-color: blue;
+}
